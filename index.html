@@ -1,70 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harris Roberts</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name Here</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <header>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-<body>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I am a Computer Science student at the University of Pittsburgh, also
+          pursuing a minor in Business. I am particularly interested in
+          developing tools and applications that improve workflows, automate
+          repetitive processes, and make data more accessible for
+          decision-making.
+        </p>
+        <p>
+          My goal is to contribute to teams that prioritize collaboration and
+          growth, as well as designing clean, scalable, and maintainable systems
+          that have a real impact in the world.
+        </p>
+      </section>
 
-  <header>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+      <section id="projects">
+        <h2>Projects</h2>
 
-  <main>
+        <div class="project">
+          <h3>Member Check-In and Management System</h3>
+          <p>
+            Developed a full-stack web application for a community pool with
+            check-in functionality and administrative tools for managing
+            memberships, families, teams, lessons, and guest tracking. Built a
+            React frontend with a Go backend and PostgreSQL database, and
+            implemented secure authentication with predefined user roles to
+            ensure reliable daily operations.
+          </p>
+        </div>
 
-    <section id="about">
-      <h2>About Me</h2>
-      <!-- TODO: Replace with 2-3 sentences about yourself -->
-      <!-- e.g., include your name, your program/year, and what you are interested in -->
-    </section>
+        <div class="project">
+          <h3>Local Document Indexing and Query Engine</h3>
+          <p>
+            Built a local note management system that monitors files and
+            synchronizes their contents with a SQLite database for efficient
+            querying and indexing. Implemented a robust filesystem watcher to
+            handle editor save patterns and ensure data consistency, and
+            designed a backend system to parse Markdown notes into structured
+            data for flexible querying.
+          </p>
+        </div>
+      </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Go (Golang)</li>
+          <li>TypeScript / JavaScript</li>
+          <li>React</li>
+          <li>PostgreSQL</li>
+          <li>Linux</li>
+        </ul>
+      </section>
 
-      <!-- Example project entry structure — copy, fill in, and add at least 2:
-      <div class="project">
-        <h3>Project Name</h3>
-        <p>What the project does, the technologies used, and what you learned.</p>
-      </div>
-      -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <p><a href="mailto:harrisaroberts@gmail.com">Email me</a></p>
+        <p>
+          <a href="https://linkedin.com/in/harris-roberts" target="_blank"
+            >LinkedIn</a
+          >
+        </p>
+      </section>
+    </main>
 
-      <!-- TODO: Add at least 2 project entries using the structure above -->
-    </section>
-
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <!-- Example skill - TODO: replace -->
-        <li>HTML</li>
-
-        <!-- TODO: Add a second skill here -->
-        <!-- TODO: Add a third skill here -->
-        <!-- TODO: ... -->
-      </ul>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <!-- TODO: Replace href="#" with a real link (e.g., mailto:you@example.com or your LinkedIn URL) -->
-      <!-- TODO: Replace the link text with something descriptive, e.g. "Email me" or "LinkedIn" -->
-      <p><a href="#">Contact me</a></p>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>&copy; Your Name Here</p>
-  </footer>
-
-</body>
-
+    <footer>
+      <p>&copy; Your Name Here</p>
+    </footer>
+  </body>
 </html>
